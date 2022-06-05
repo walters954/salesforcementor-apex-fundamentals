@@ -1,5 +1,10 @@
 # Salesforce DX Project: Next Steps
 
+<a href="https://githubsfdeploy.herokuapp.com?owner=walters954&repo=salesforcementor-apex-fundamentals&ref=exercises-and-project">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
+
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
 ## How Do You Plan to Deploy Your Changes?
