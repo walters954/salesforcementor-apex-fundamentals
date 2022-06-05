@@ -38,9 +38,5 @@ $RECYCLE.BIN/
 
 # Local environment variables
 .env
-
-# Added by Illuminated Cloud
+/.idea
 /IlluminatedCloud/
-/out/
-target/
-/.idea/
