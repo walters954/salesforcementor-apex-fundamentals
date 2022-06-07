@@ -16,7 +16,6 @@ private with sharing class GettingStartedTest {
         Integer secret = 42;
 
         /*REPLACE NULL WITH YOUR VARIABLE*/
-        //System.assert(TestHelper.secretOfTheUniverse(null));
         System.assert(TestHelper.secretOfTheUniverse(secret));
         /*REPLACE NULL WITH YOUR VARIABLE*/
     }
