@@ -30,7 +30,7 @@ private with sharing class GettingStartedTest {
 
     static void buzz(String value){
         //Add Buzz to the value
-
+        value += 'Buzz';
         /*REPLACE NULL WITH YOUR VARIABLE*/
         System.assertEquals('FizzBuzz', value + 'Buzz');
         /*REPLACE NULL WITH YOUR VARIABLE*/

@@ -26,6 +26,46 @@ public with sharing class TestHelper {
         return value instanceof Boolean && (Boolean) value;
     }
 
+    public static Boolean numberOfDaysInTheYear(Object value) {
+        return value instanceof Integer && (Integer) value == 365;
+    }
+
+    public static Boolean lightSpeed(Object value) {
+        if(value instanceof Integer == false) {
+            return false;
+        }
+        if((Integer) value != 299792458) {
+            return false;
+        }
+        // attempt to change it, if we catch an Ex, the solution is wrong.
+        try {
+            (Integer) value = 100;
+        } catch (FinalException fex) {
+            System.debug(fex.getMessage());
+            System.debug(fex.getStackTraceString());
+            return true;
+        }
+        return false;
+    }
+
+    public static Boolean valueOfPi(Object value) {
+        if(value instanceof Double == false || value instanceof Decimal == false) {
+            return false;
+        }
+        if((Decimal) value != 3.14) {
+            return false;
+        }
+        // attempt to change it, if we catch an Ex, the solution is wrong.
+        try {
+            (Decimal) value = 0.00001;
+        } catch (FinalException fex) {
+            System.debug(fex.getMessage());
+            System.debug(fex.getStackTraceString());
+            return true;
+        }
+        return false;
+    }
+
     public static Boolean findMax(Integer num1, Integer num2, Integer max) {
         Integer tmpMax = Math.max(num1, num2);
         return tmpMax == max;
