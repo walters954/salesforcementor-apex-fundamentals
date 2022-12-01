@@ -11,6 +11,7 @@ Used the unlocked package to install the exercises and project files
 [![](https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007spSFQAY)
 - **Only install this package in practice orgs like a playground or developer org.**
 - If you reinstall the package it may override any work you have done
+- Package Id: 04t1U000007spSFQAY
 
 ## What's Inside
 | Exercises | Description |
