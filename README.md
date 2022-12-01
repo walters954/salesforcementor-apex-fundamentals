@@ -1,7 +1,7 @@
 # Salesforce Developer: Apex Fundamentals
 
 ## Overview
-Practice problems for [Belive In Apex: Apex Fundamentals Course](https://courses.salesforcementor.com/p/salesforce-development-apex-fundamentals).
+Practice problems for [Believe In Apex: Apex Fundamentals Course](https://courses.salesforcementor.com/p/salesforce-development-apex-fundamentals).
 This repository is meant for students of the course but anyone is welcome to install and try out the problems/project. 
 - Install and do the problems, and ask questions to fellow students if you are stuck. 
 - [Review the solutions branch for further help and to see how an experienced dev would complete them.](https://github.com/walters954/salesforcementor-apex-fundamentals/tree/solutions)  
